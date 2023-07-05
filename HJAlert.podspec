@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HJAlert"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "HJAlert一款弹出框软件"
   spec.ios.deployment_target = '9.0'
 
