@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   
   spec.source       = { :git => "https://github.com/AmazingKuang/HJAlert.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "HJAlert/*.{h,m}"
+  spec.source_files  = "HJAlert/**/*.{swift}"
 spec.requires_arc = true
  spec.dependency "SnapKit"
 
