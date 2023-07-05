@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '9.0'
 
   spec.description  = <<-DESC
-HJAlert一款弹出框软件
+一款弹出框软件,方便快捷
                    DESC
 
   spec.homepage     = "https://github.com/AmazingKuang/HJAlert.git"
