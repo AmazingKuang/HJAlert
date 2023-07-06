@@ -19,5 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "HJAlert/*.{swift}"
   spec.requires_arc = true
-
+  spec.frameworks = 'UIKit'
+  spec.dependency 'SnapKit'
 end
