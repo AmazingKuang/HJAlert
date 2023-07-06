@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "AmazingKuang" => "1820538755@qq.com" }
  
   
-  spec.source       = { :git => "https://github.com/AmazingKuang/HJAlert.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/AmazingKuang/HJAlert.git", :tag => spec.version}
 
   spec.source_files  = "HJAlert/*.{swift}"
 spec.requires_arc = true
