@@ -13,9 +13,9 @@
 		CE4B490E2A5690220034CE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B490C2A5690220034CE20 /* Main.storyboard */; };
 		CE4B49102A5690240034CE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4B490F2A5690240034CE20 /* Assets.xcassets */; };
 		CE4B49132A5690240034CE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4B49112A5690240034CE20 /* LaunchScreen.storyboard */; };
-		CE4B49222A569AE70034CE20 /* HJAlertShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B491F2A569AE70034CE20 /* HJAlertShowView.swift */; };
-		CE4B49232A569AE70034CE20 /* HJConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B49202A569AE70034CE20 /* HJConfig.swift */; };
-		CE4B49242A569AE70034CE20 /* HJAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B49212A569AE70034CE20 /* HJAlert.swift */; };
+		CE4B49292A56AF970034CE20 /* HJAlertShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B49262A56AF970034CE20 /* HJAlertShowView.swift */; };
+		CE4B492A2A56AF970034CE20 /* HJConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B49272A56AF970034CE20 /* HJConfig.swift */; };
+		CE4B492B2A56AF970034CE20 /* HJAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4B49282A56AF970034CE20 /* HJAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		CE4B490F2A5690240034CE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4B49122A5690240034CE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4B49142A5690240034CE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE4B491F2A569AE70034CE20 /* HJAlertShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJAlertShowView.swift; sourceTree = "<group>"; };
-		CE4B49202A569AE70034CE20 /* HJConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJConfig.swift; sourceTree = "<group>"; };
-		CE4B49212A569AE70034CE20 /* HJAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJAlert.swift; sourceTree = "<group>"; };
+		CE4B49262A56AF970034CE20 /* HJAlertShowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJAlertShowView.swift; sourceTree = "<group>"; };
+		CE4B49272A56AF970034CE20 /* HJConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJConfig.swift; sourceTree = "<group>"; };
+		CE4B49282A56AF970034CE20 /* HJAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			children = (
 				CE4B49062A5690220034CE20 /* AppDelegate.swift */,
 				CE4B490A2A5690220034CE20 /* ViewController.swift */,
-				CE4B491E2A569AE70034CE20 /* HJAlert */,
+				CE4B49252A56AF970034CE20 /* HJAlert */,
 				CE4B490C2A5690220034CE20 /* Main.storyboard */,
 				CE4B490F2A5690240034CE20 /* Assets.xcassets */,
 				CE4B49112A5690240034CE20 /* LaunchScreen.storyboard */,
@@ -86,14 +86,15 @@
 			path = HJAlertDemo;
 			sourceTree = "<group>";
 		};
-		CE4B491E2A569AE70034CE20 /* HJAlert */ = {
+		CE4B49252A56AF970034CE20 /* HJAlert */ = {
 			isa = PBXGroup;
 			children = (
-				CE4B491F2A569AE70034CE20 /* HJAlertShowView.swift */,
-				CE4B49202A569AE70034CE20 /* HJConfig.swift */,
-				CE4B49212A569AE70034CE20 /* HJAlert.swift */,
+				CE4B49262A56AF970034CE20 /* HJAlertShowView.swift */,
+				CE4B49272A56AF970034CE20 /* HJConfig.swift */,
+				CE4B49282A56AF970034CE20 /* HJAlert.swift */,
 			);
-			path = HJAlert;
+			name = HJAlert;
+			path = ../../HJAlert;
 			sourceTree = "<group>";
 		};
 		D1498DD0D3A745E9584944BA /* Pods */ = {
@@ -220,11 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4B49232A569AE70034CE20 /* HJConfig.swift in Sources */,
+				CE4B49292A56AF970034CE20 /* HJAlertShowView.swift in Sources */,
+				CE4B492B2A56AF970034CE20 /* HJAlert.swift in Sources */,
 				CE4B490B2A5690220034CE20 /* ViewController.swift in Sources */,
-				CE4B49242A569AE70034CE20 /* HJAlert.swift in Sources */,
 				CE4B49072A5690220034CE20 /* AppDelegate.swift in Sources */,
-				CE4B49222A569AE70034CE20 /* HJAlertShowView.swift in Sources */,
+				CE4B492A2A56AF970034CE20 /* HJConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
