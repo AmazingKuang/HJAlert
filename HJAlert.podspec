@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.name         = "HJAlert"
   spec.version      = "1.0.0"
   spec.summary      = "HJAlert一款弹出框软件"
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '9.0'
 
   spec.description  = <<-DESC
 一款弹出框软件,方便快捷
@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "HJAlert/*.{swift}"
   spec.requires_arc = true
   spec.frameworks = 'UIKit','Foundation'
-  spec.dependency 'SnapKit'
+  spec.dependency 'SnapKit','~> 4.2.0'
 end
