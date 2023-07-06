@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "HJAlert"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "HJAlert pop"
   spec.ios.deployment_target = '9.0'
 
@@ -14,6 +14,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/AmazingKuang/HJAlert.git", :tag => spec.version}
   spec.source_files  = "HJAlert","HJAlert/*.{swift}"
   spec.frameworks = 'UIKit','Foundation'
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+	spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 x86_64' }
   spec.dependency 'SnapKit'
 end
