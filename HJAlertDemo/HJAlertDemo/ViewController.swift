@@ -22,7 +22,10 @@ class ViewController: UIViewController {
     }
     @objc func didClickedConfirmButton() {
 //        HJAlert.alert(title: "温馨提示",message: "没有内存了",rightBtnTitle: "确定")
-
+        HJAlert.customAlert(title: "温馨提示", config:  { config in
+            config.leftColor = .gray
+            config.rightColor = .red
+        })
     }
 
 
