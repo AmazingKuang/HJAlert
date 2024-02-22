@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.name         = "HJAlert"
   spec.version      = "1.0.3"
   spec.summary      = "HJAlert pop"
-  spec.ios.deployment_target = '12.0'
+  spec.ios.deployment_target = '9.0'
 
   spec.description  = <<-DESC
    pod here
