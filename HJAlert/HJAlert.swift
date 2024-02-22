@@ -24,7 +24,7 @@ extension HJAlert{
                             rightBtnTitle: String? = nil,
                             leftBlock: LeftCallBack? = nil,
                             rightBlock: RightCallback? = nil) {
-        hjCustomAlert(title: title,
+        customAlert(title: title,
                     message: message,
                     leftBtnTitle: leftBtnTitle,
                     rightBtnTitle: rightBtnTitle,
@@ -46,7 +46,7 @@ extension HJAlert{
                                       rightBtnAttributedTitle: NSAttributedString? = nil,
                                       leftBlock: LeftCallBack? = nil,
                                       rightBlock: RightCallback? = nil) {
-        hjCustomAlert(attributedTitle: attributedTitle,
+        customAlert(attributedTitle: attributedTitle,
                     attributedMessage: attributedMessage,
                     leftBtnAttributedTitle: leftBtnAttributedTitle,
                     rightBtnAttributedTitle: rightBtnAttributedTitle,
@@ -68,7 +68,7 @@ extension HJAlert{
     ///   - leftBlock:  左侧按钮回调
     ///   - rightBlock: 右侧按钮回调
     ///   - config: Alert适配器，不传为默认样式
-    private class func hjCustomAlert(title: String? = nil,
+    public class func customAlert(title: String? = nil,
                                   attributedTitle : NSAttributedString? = nil,
                                   image: UIImage? = nil,
                                   message: String?  = nil,
